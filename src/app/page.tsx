@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import Phone from "@/components/Phone";
 import { Check, Star } from "lucide-react";
 
 export default function Home() {
@@ -83,7 +84,7 @@ export default function Home() {
 
 									<p>
 										<span className="font-semibold">
-											1.250
+											1,250
 										</span>{" "}
 										happy customers
 									</p>
@@ -92,7 +93,7 @@ export default function Home() {
 						</div>
 					</div>
 
-					{/* <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
+					<div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
 						<div className="relative md:max-w-xl">
 							<img
 								src="/your-image.png"
@@ -107,7 +108,7 @@ export default function Home() {
 								imgSrc="/testimonials/1.jpg"
 							/>
 						</div>
-					</div> */}
+					</div>
 				</MaxWidthWrapper>
 			</section>
 		</div>
